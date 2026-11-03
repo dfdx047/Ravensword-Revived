@@ -1,0 +1,37 @@
+# Nothing of the game goes into this repository: users bring their own APK.
+*.apk
+*.apks
+*.obb
+original/
+output/
+build/
+dist/
+prebuilt/
+
+# Files made from the game's own data at build time
+*.so
+*.ttf
+lang/pt-BR.json
+mod/ModData.cs
+bridge/gen/
+
+# Keys and passwords
+keystore/
+*.jks
+*.keystore
+*.pass
+password.txt
+
+# Local tools, downloads and the development machine's state
+tools/
+third_party/
+logs/
+backups/
+private/
+CHANGES.md
+__pycache__/
+*.pyc
+
+# .NET build output
+bin/
+obj/

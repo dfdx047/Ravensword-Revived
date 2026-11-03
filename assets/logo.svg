@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1d38a"/><stop offset="0.55" stop-color="#d6ad55"/><stop offset="1" stop-color="#8a641a"/>
+    </linearGradient>
+    <linearGradient id="blade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9aa3ad"/><stop offset="0.5" stop-color="#e9edf1"/><stop offset="1" stop-color="#6d7680"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3140"/><stop offset="1" stop-color="#11141b"/>
+    </linearGradient>
+    <radialGradient id="disc" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#242a36"/><stop offset="1" stop-color="#0c0f15"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d6ad55" stop-opacity="0.28"/><stop offset="1" stop-color="#d6ad55" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0e14"/><stop offset="0.7" stop-color="#151a24"/><stop offset="1" stop-color="#1b212c"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8b97a8" stop-opacity="0"/><stop offset="1" stop-color="#8b97a8" stop-opacity="0.10"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#sky)"/>
+  <circle cx="256" cy="256" r="250" fill="url(#glow)"/>
+  
+  <g>
+    <circle cx="256" cy="256" r="178.88" fill="url(#disc)" stroke="#8a641a" stroke-width="2.50"/>
+    <circle cx="256" cy="256" r="208" fill="none" stroke="url(#gold)" stroke-width="7.28"/>
+    <path d="M443.2,256.0 L459.8,256.0 M436.8,304.5 L446.9,307.1 M418.1,349.6 L432.5,357.9 M388.4,388.4 L395.7,395.7 M349.6,418.1 L357.9,432.5 M304.5,436.8 L307.1,446.9 M256.0,443.2 L256.0,459.8 M207.5,436.8 L204.9,446.9 M162.4,418.1 L154.1,432.5 M123.6,388.4 L116.3,395.7 M93.9,349.6 L79.5,357.9 M75.2,304.5 L65.1,307.1 M68.8,256.0 L52.2,256.0 M75.2,207.5 L65.1,204.9 M93.9,162.4 L79.5,154.1 M123.6,123.6 L116.3,116.3 M162.4,93.9 L154.1,79.5 M207.5,75.2 L204.9,65.1 M256.0,68.8 L256.0,52.2 M304.5,75.2 L307.1,65.1 M349.6,93.9 L357.9,79.5 M388.4,123.6 L395.7,116.3 M418.1,162.4 L432.5,154.1 M436.8,207.5 L446.9,204.9" stroke="#d6ad55" stroke-width="2.50" stroke-linecap="round" opacity="0.8"/>
+    <path d="M242.3,198.2 Q206.5,166.4 211.8,118.8 Q234.2,155.8 242.3,202.4 Z M242.3,193.4 Q197.1,168.6 187.4,117.9 Q221.1,151.2 242.3,197.6 Z M242.3,188.6 Q189.0,173.7 163.3,124.7 Q207.6,150.7 242.3,192.7 Z M242.3,183.8 Q183.2,181.6 141.9,139.2 Q195.2,154.5 242.3,187.9 Z M242.3,179.0 Q180.5,191.5 125.7,160.6 Q185.2,162.2 242.3,183.1 Z M242.3,174.2 Q181.8,202.7 116.7,187.4 Q178.7,173.2 242.3,178.3 Z M269.7,198.2 Q305.5,166.4 300.2,118.8 Q277.8,155.8 269.7,202.4 Z M269.7,193.4 Q314.9,168.6 324.6,117.9 Q290.9,151.2 269.7,197.6 Z M269.7,188.6 Q323.0,173.7 348.7,124.7 Q304.4,150.7 269.7,192.7 Z M269.7,183.8 Q328.8,181.6 370.1,139.2 Q316.8,154.5 269.7,187.9 Z M269.7,179.0 Q331.5,191.5 386.3,160.6 Q326.8,162.2 269.7,183.1 Z M269.7,174.2 Q330.2,202.7 395.3,187.4 Q333.3,173.2 269.7,178.3 Z" fill="url(#wing)" stroke="#d6ad55" stroke-opacity="0.85" stroke-width="2.08" stroke-linejoin="round"/>
+    <path d="M256,93.75999999999999 L271.6,131.2 L268.48,343.36 L256,384.96000000000004 L243.52,343.36 L240.4,131.2 Z" fill="url(#blade)" stroke="#8a641a" stroke-width="1.66"/>
+    <path d="M256,135.36 L259.328,330.88 L252.672,330.88 Z" fill="#0e1117" opacity="0.55"/>
+    <path d="M248.72,166.56 h14.560000000000002 v-41.6 h-14.560000000000002 Z" fill="#2a2018" stroke="#d6ad55" stroke-width="1.66"/>
+    <path d="M193.6,166.56 Q256,181.12 318.4,166.56 L312.16,179.04000000000002 Q256,191.51999999999998 199.84,179.04000000000002 Z" fill="url(#gold)"/>
+    <path d="M256,102.08000000000001 m-14.560000000000002,0 a14.560000000000002,14.560000000000002 0 1,0 29.120000000000005,0 a14.560000000000002,14.560000000000002 0 1,0 -29.120000000000005,0" fill="url(#gold)"/>
+  </g>
+</svg>
