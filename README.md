@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/dfdx047/Ravensword-Revived/releases/latest"><img src="https://img.shields.io/github/downloads/dfdx047/Ravensword-Revived/total?label=download&color=d6ad55" alt="Download"></a>
   <a href="https://github.com/dfdx047/Ravensword-Revived/releases/latest"><img src="https://img.shields.io/github/v/release/dfdx047/Ravensword-Revived?label=version&color=d6ad55" alt="Version"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/dfdx047/Ravensword-Revived?color=8a641a" alt="License"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-8a641a" alt="License"></a>
   <img src="https://img.shields.io/badge/platform-Android%2015%20arm64-3ddc84?logo=android&logoColor=white" alt="Platform: Android 15 arm64">
   <a href="https://discord.gg/YGEpECWrK7"><img src="https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://youtube.com/@dfdx47"><img src="https://img.shields.io/badge/YouTube-%40dfdx47-FF0000?logo=youtube&logoColor=white" alt="YouTube"></a>
@@ -170,4 +170,5 @@ See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for licenses.
 This is an unofficial fan project. It is not affiliated with, endorsed by or connected to Crescent
 Moon Games. "Ravensword" and "Ravensword: Shadowlands" are trademarks of their owners. No game files
 are included in this repository or in its releases: to use the mod you need your own copy of the
-game. The mod's own code is released under the license in [LICENSE](LICENSE).
+game. The mod's own code is released under the GNU General Public License v3.0 (GPL-3.0); see
+[LICENSE](LICENSE).
